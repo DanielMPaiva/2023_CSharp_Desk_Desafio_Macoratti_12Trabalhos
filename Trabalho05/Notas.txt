@@ -1,0 +1,6 @@
+﻿Desafio C# do site https://www.macoratti.net/14/05/c_12des1.htm
+
+Desafio 5
+Escreva um programa que calcule e exiba a soma da seguinte série : 
+ 1*x + 2*x^2 + 3*x^3 + 4*x^4 + 5*x^5 + … + n*xn
+

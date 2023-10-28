@@ -1,0 +1,49 @@
+﻿Desafio C# do site https://www.macoratti.net/14/05/c_12des1.htm
+
+Desafio 7
+Escreva um programa que receba n valores do usuário e em seguida ordene os valores em ordem ascendente.
+
+
+Teoria
+
+Na linguagem C#  os arrays possuem o índice com base zero, ou seja, o primeiro elemento do array possui o índice zero (0).
+
+Um array de uma dimensão é declarado informando o tipo de dados do array seguido do nome do array, lembrando que devemos colocar colchetes ([]) depois do tipo do array e não após o seu nome:
+
+Ex:  int[] tabela; ==> correto     int tabela[];  ==> incorreto
+
+Na linguagem C# o tamanho do array não é parte do seu tipo, isso permite declarar uma array e em seguida atribuir qualquer array de objetos int a ele, sem considerar o seu tamanho:
+
+Ex:    int[] numeros;                       //declara numeros como um array de inteiros de qualquer tamanho
+         numeros = new int[10];          // numeros agora é um array de 10 elementos
+         numeros = new int[20];          // numeros agora é um array de 20 elementos
+
+Além de arrays de uma dimensão a linguagem C# suporta os seguintes tipos de arrays:
+
+- Arrays com mais de uma dimensão :
+
+    string[,] names;      
+    int[,] array = new int[2, 2];
+
+-  Array-of-arrays (jagged):
+
+     byte[][] resultados;
+     int[][] numArray = new int[][] { new int[] {1,3,5}, new int[] {2,4,6,8,10} };
+
+Em C# declaramos um array assim :
+
+string[] nomes;                 //array nomes de qualquer tamanho
+
+mas isso não cria o array para fazer isso devemos declarar:
+
+nomes = new string[5];        //array de strings de 5 elementos 
+
+finalmente para inicializar o array fazemos assim:
+
+nomes[0] = "José";
+nomes[1] = "Carlos";
+nomes[2] = "Macoratti";
+nomes[3] = "Miriam";
+nomes[4] = "Estela";
+
+Observe o índice indicando a posição do elemento no array. O primeiro elemento é o zero e o último é 4. Assim temos 5 elementos no array com posições : 0,1,2,3 e 4.

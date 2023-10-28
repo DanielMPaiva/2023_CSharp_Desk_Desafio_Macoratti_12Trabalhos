@@ -1,0 +1,17 @@
+﻿Desafio C# do site https://www.macoratti.net/14/05/c_12des1.htm
+
+Desafio 4
+Escreva um programa que imprime no Console uma matriz identidade n por n usando um laço for.
+
+
+
+Seja M uma matriz quadrada de ordem n. A matriz M é chamada de Matriz Identidade de ordem n (indicada por In) quando os elementos da diagonal principal são todos iguais a 1 e os elementos restantes são iguais a zero.
+
+Exemplo
+
+Considere a Matriz M2x2, escrita na forma matriz identidade1 . 
+M =  1 0 
+	 0 1
+
+Observando-a, verificamos que ela é uma matriz quadrada, isto é, tem quantidades de linhas e colunas iguais.
+Também observamos que a sua diagonal principal é composta apenas pelo número 1, enquanto que os demais elementos de M são todos zeros.

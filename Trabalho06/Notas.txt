@@ -1,0 +1,13 @@
+﻿Desafio C# do site https://www.macoratti.net/14/05/c_12des1.htm
+
+Desafio 6
+Escreva um programa que usando a instrução switch e que a partir de um valor informado pelo usuário realize as seguintes conversões :
+P -> Polegadas para Centímetros
+G -> Galão para Litros
+M -> Milhas para Kilometros
+Para a primeira conversão o usuário deverá informar a opção P , para a segunda deve informar G e para a terceira deve informar M.
+ 
+Teoria
+1 milha é igual a 1,609 Km ou 1609 metros ou 160934 centímetros
+1 polegada é igual a 2,54 cm, ou 0,0254 metros ou 25,4 milímetros
+1 galão é igual a 3,78 litros

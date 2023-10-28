@@ -1,0 +1,24 @@
+﻿Desafio C# do site https://www.macoratti.net/14/05/c_12des1.htm
+
+Desafio 12
+Escreva um programa que exiba uma lista dos serviços instalados no computador local e
+ao final informe o número total de serviços instalados.
+ 
+
+Teoria
+
+O método ServiceController.GeServices() recupera todos os serviços no computador local, 
+exceto serviços de driver de dispositivo.
+
+A classe ServiceController representa um serviço do Windows e 
+permite que você se conecte a um serviço em  execução ou interrompido, 
+manipule o serviço e obtenha informações sobre ele.
+
+Você pode usar a classe ServiceController para conectar e controlar o comportamento de serviços existentes. 
+Quando você cria uma instância da classe de ServiceController , 
+você define suas propriedades para poder interagir com um serviços específicos do Windows. 
+Você pode usar a classe para iniciar, parar, e para manipular de outra maneira o serviço.
+
+Depois de criar uma instância de ServiceController, 
+você deve definir duas propriedades para identificar o serviço com que interage: 
+o nome do computador e o nome de serviço que você deseja controlar.

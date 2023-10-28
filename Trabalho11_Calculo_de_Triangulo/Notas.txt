@@ -1,0 +1,40 @@
+﻿Desafio C# do site https://www.macoratti.net/14/05/c_12des1.htm
+
+Desafio 11
+Escreva um programa que calcule a área de um triângulo quando são fornecidos pelo usuário  o valor dos 3 lados A, B e C. O programa deve verificar se o triângulo existe.
+ 
+
+Teoria
+
+ 
+
+Heron de Alexandria é o responsável por elaborar uma fórmula matemática que 
+calcula a área de um triângulo em função das medidas dos seus três lados. 
+A fórmula de Heron de Alexandria é muito útil nos casos em que não sabemos a altura do triângulo,
+mas temos a medida dos lados.
+
+
+Em um triângulo de lados medindo a, b e c podemos calcular a sua área utilizando a fórmula de Heron:
+ 
+
+	         P = (a + b + c) / 2;
+         Area = Math.Sqrt(P * (P - a) * (P - b) * (P - c));
+ 
+
+Sabemos que um triângulo é formado por três lados que possuem uma determinada medida, 
+mas essas não podem ser escolhidas aleatoriamente como os lados de um quadrado ou de um retângulo, 
+é preciso seguir uma regra.
+
+Só irá existir um triângulo se, somente se, os seus lados obedeceram à seguinte regra:
+um de seus lados deve ser maior que o valor absoluto (módulo) da diferença dos outros dois lados e 
+menor que a soma dos outros dois lados.
+
+ 
+
+Veja o resumo da regra abaixo:
+
+| b - c | < a < b + c
+| a - c | < b < a + c
+| a - b | < c < a + b
+
+ 

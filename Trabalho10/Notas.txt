@@ -1,0 +1,76 @@
+﻿Desafio C# do site https://www.macoratti.net/14/05/c_12des1.htm
+
+Desafio 10
+Escreva um programa que receba um número de um usuário e exiba a soma dos dígitos deste número. Ex: Se o usuário informar 142 o valor exibido será: 1+4+2 = 7
+ 
+
+Teoria
+
+ 
+
+O C# fornece um grande conjunto de operadores, que são os símbolos que especificam quais operações executar em uma expressão.
+
+No C#, um operador é um elemento de programa que é aplicado a um ou mais operandos em uma expressão ou instrução. Operadores que usam um operando, como, por exemplo, o operador de incremento (++) ou new, são chamados de Unário operadores.
+
+Operadores que usam dois operandos, como, por exemplo, operadores aritméticos (+,-,*,/), são chamados de binário operadores. Um operador, o operador condicional (?:), usa três operandos e é o único operador Ternário em C#.
+
+Operações em tipos integrais como ==, !=, <, >, <=, >=, binary +, binary -, ^, &, |, ~, ++, --, e sizeof() geralmente são permitidos em enumerações. Além disso, muitos operadores podem ser sobrecarregados pelo usuário, alterando, portanto, seu sentido quando aplicado a um tipo definido pelo usuário.
+
+Cada operador tem uma precedência definida. Em uma expressão que contém vários operadores que têm níveis diferentes de precedência, a precedência dos operadores determina a ordem na qual os operadores são avaliados.
+
+Comparação entre as linguagens VB .NET e C# - Operadores Aritméticos :
+
+Propósito
+
+VB.NET
+
+C#
+
+Adição	+	+
+Subtração	-	-
+Multiplicação	*	*
+Divisão de inteiros
+
+\
+
+/
+
+Módulo(divisão retornando o resto)
+
+Mod
+
+%
+
+Exponenciação
+
+^
+
+n/d
+
+Se você  precisa realizar cálculos mais complexos do que uma simples soma ou uma multiplicação em C#, use as funções da classe Math :
+
+Função	Finalidade	Exemplo
+Abs(x)	Valor absoluto de x	Abs(4.5) = 4,5;
+Abs(-4.5) = 4,5;
+Acos(x)	Arco cosseno de x	Acos (0.3) = 1,26...
+Asin(x)	Arco seno de x	Asin(0.6) = 0,64...
+Atan(x)	Arco tangente de x	Atan(0.5) = 0,46...
+Ceiling(x)	Arredonda x para cima	Ceiling(0.1) = 1;
+Ceiling(-0.1) = 0;
+Cos(x)	Cosseno de x	Cos(0.5) = 0,87...
+E	Valor da constante E	E = 2,71...
+Exp(x)	Exponencial (e elevado na x)	Exp(2.0) = 7,38...
+Floor(x)	Arredonda x para baixo	Floor(0.8) = 0;
+Floor(-0.8) = -1;
+Log(x)	Logaritmo de x na base natural e	Log(2.71) = 0,99...
+Log10(x)	Logaritmo de x na base 10	Log(2.0) = 0,30...
+Max(x,y)	Maior valor entre dois números	Max(1.8,1.9) = 1.9;
+Max(-0.3,-0.5) = -0,3;
+Min(x)	Menor valor entre dois números	Min(1.2,1.5) = 1.2;
+Min(-0.3,-0.6) = -0,3;
+PI	Valor de PI	PI = 3,1415...
+Pow(x,y)	Valor de x elevado na y	Pow(3,2) = 9
+Round(x,y)	Arredonda x para y casas decimais	Round(6.98765,3) = 6,988
+Sin(x)	Seno de x	Sin(2) = 0,9...
+Sqrt(x)	Raiz quadrada de x	Sqrt(144) = 12
+Tan(x)	Tangente de x	Tan(0.5) = 0,54...

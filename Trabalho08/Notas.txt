@@ -1,0 +1,17 @@
+﻿Desafio C# do site https://www.macoratti.net/14/05/c_12des1.htm
+
+Desafio 8
+Escreva um programa que receba 2 números de um usuário e 
+retorne qual dos números é o maior e 
+depois verifique se esse número é primo ou não.
+ 
+
+Teoria
+
+Um método é um bloco de código que contém uma série de instruções. Um programa faz com que as instruções sejam executados chamando o método e especificando todos os argumentos necessários do método. Em C#, todas instruções são executadas por métodos. O método Main é o ponto de entrada para cada aplicativo C# e ele é chamado pelo CLR (Common Languege Runtime) quando o programa é iniciado.
+
+Métodos são declarados em uma classe ou struct, especificando o nível de acesso como public, private, abstract ou sealed, o valor de retorno, o nome do método. Essas partes juntas compõe a assinatura de método.
+
+Os parâmetros do método são colocados entre parênteses e são separados por vírgulas. Os parênteses vazios indicam que o método não requer nenhum parâmetro.
+
+Chamar um método em um objeto é como acessar um campo. Após o nome do objeto, adicione um ponto, o nome do método e parênteses. Os argumentos são listados dentro dos parênteses, e separados por vírgulas. 

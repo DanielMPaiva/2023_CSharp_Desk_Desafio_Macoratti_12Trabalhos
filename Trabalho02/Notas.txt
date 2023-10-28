@@ -1,0 +1,12 @@
+﻿Desafio C# do site https://www.macoratti.net/14/05/c_12des1.htm
+
+Desafio 2
+Escreva um programa que produza a seguinte resultado no Console:
+ 
+*
+**
+***
+****
+***
+**
+*

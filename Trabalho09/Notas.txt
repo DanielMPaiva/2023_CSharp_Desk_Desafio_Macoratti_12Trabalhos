@@ -1,0 +1,28 @@
+﻿Desafio C# do site https://www.macoratti.net/14/05/c_12des1.htm
+
+Desafio 9
+Escreva um programa que mostre a diferença entre um parâmetro por valor e um parâmetro por referência
+ 
+
+Teoria
+
+
+Em C#, os argumentos podem ser passados os parâmetros por valor ou por referência. A passagem por referência permite que membros da função, métodos, propriedades, indexadores, operadores e construtores alterem o valor dos parâmetros fazendo com que essa alteração persista no ambiente de chamada.
+ 
+
+Uma variável de um tipo por referência não contém seus dados diretamente. Ele contém uma referência a seus dados. Quando você passa um parâmetro de tipo de referência por valor, é possível alterar os dados apontados por referência, como, por exemplo, o valor de um membro da classe. No entanto, você não pode alterar o valor da referência propriamente dito; ou seja, você não pode usar a mesma referência alocando memória para uma nova classe. Para isso, passe o parâmetro usando a palavra-chave ref ou  out.
+Existem três modificadores de parâmetros que podem ser usados para alterar a forma como os parâmetros são passados para as funções :
+
+(nenhum): Se um parâmetro não é marcado com um modificador de parâmetro, ele será passado por valor, ou seja, o método chamado recebe uma cópia do dado original.
+out: Parâmetros out devem ser atribuídos pelo método sendo chamado, e portanto são passados por referência. Se o método chamado não atribuir os parâmetros out, haverá um erro de compilação.
+ref: O valor é atribuído pelo chamador e pode ser opcionalmente reatribuído pelo método chamado.  Se o método chamado não atribuir um parâmetro ref nenhum erro de compilação será gerado.
+params: Este modificador de parâmetro permite a enviar um número variável de argumentos como um único parâmetro lógico. Um método pode ter somente um modificador params, e ele deve ser o último parâmetro do método. O modificador params não é muito usado, mas existem vários métodos na biblioteca base da .NET Framework que fazem uso deste recurso.
+A forma padrão de enviar um parâmetro é por valor.
+
+ 
+
+Os parâmetros de referência são necessários quando você quer permitir a um método operar em vários pontos de dados declarados dentro do escopo do chamador. Observe a diferença entre parâmetros de saída e parâmetros de referência:
+
+Parâmetros de saída não precisam ser inicializados antes de serem passados para o método, pois o método deve atribuir valores a esses parâmetros antes de finalizar.
+
+Parâmetros de referência devem ser inicializados antes de serem passados para o método. O motivo é que você está passando uma referência para uma variável existente. Se você não atribuir um valor inicial, isso seria equivalente a operar com uma variável local não atribuída.
